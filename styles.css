@@ -1,0 +1,51 @@
+
+
+.header{
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h1#users{
+  color: dimgrey;
+}
+
+.options{
+  align-items: center;
+  color: dimgrey;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.options > div {
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 10px;
+  color: dimgrey;
+  justify-content: space-arond;
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+}
+
+#save{
+  background-color: dodgerblue;
+  color: white;
+}
+
+.userform {
+  border: solid 1px black;
+  border-radius: 5px;
+  color: dimgrey;
+  display: block;
+  justify-content: left;
+  max-width: 25rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
